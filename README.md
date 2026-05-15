@@ -31,7 +31,9 @@ Makkah → Taif → Abha
 Question: Does the KB prove Nora is guilty?
 
 Answer:
-kb.tell(Implication(nora_key, nora_guilty))
 No, because there is no rule linking having the key to being guilty.
+
+Required rule:
+kb.tell(Implication(nora_key, nora_guilty))
 
 Required rule:
