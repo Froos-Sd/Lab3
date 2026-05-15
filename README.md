@@ -36,4 +36,3 @@ No, because there is no rule linking having the key to being guilty.
 Required rule:
 kb.tell(Implication(nora_key, nora_guilty))
 
-Required rule:
